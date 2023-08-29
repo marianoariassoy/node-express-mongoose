@@ -15,7 +15,7 @@ content-type: application/json
 }
 
 ###
-PUT http://localhost:8080/api/products/64ee70a8210a32c5b39294a0
+PUT http://localhost:8080/api/products/64ee75dca9c48af6ca76bdef
 content-type: application/json
 
 {
@@ -23,6 +23,6 @@ content-type: application/json
 }
 
 ###
-DELETE http://localhost:8080/api/products/64ee70a8210a32c5b39294a0
+DELETE http://localhost:8080/api/products/64ee75dca9c48af6ca76bdef
 
 
