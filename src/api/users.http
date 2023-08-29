@@ -6,22 +6,20 @@ POST http://localhost:8080/api/users/
 content-type: application/json
 
 {
-    "name": "John Mayer",
-    "email": "email@email.com"
+    "name": "John Mayer4",
+    "email": "email4@email.com"
    
 }
 
 ###
-PUT http://localhost:8080/api/users/64ee629cdab7783de98723f8
+PUT http://localhost:8080/api/users/64ee67eabe7a75844a85b0ba
 content-type: application/json
 
 {
-    "name": "John Mayer 2",
-    "email": "email12@email.com"
+    "name": "J2ohn Mayer 21",
+    "email": "2email2@email.com"
    
 }
 
 ###
-DELETE http://localhost:8080/api/users/64ee6fa20c96adeff4970de6
-
-
+DELETE http://localhost:8080/api/users/64ee67eabe7a75844a85b0ba
