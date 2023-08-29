@@ -1,0 +1,28 @@
+
+GET http://localhost:8080/api/products
+
+###
+POST http://localhost:8080/api/products/
+content-type: application/json
+
+{
+    "name": "Product 1",
+    "category": "category",
+    "price": 100,
+    "stock": 10,
+    "image": "100"
+   
+}
+
+###
+PUT http://localhost:8080/api/products/64ee70a8210a32c5b39294a0
+content-type: application/json
+
+{
+    "stock": 2
+}
+
+###
+DELETE http://localhost:8080/api/products/64ee70a8210a32c5b39294a0
+
+

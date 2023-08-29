@@ -1,0 +1,27 @@
+
+GET http://localhost:8080/api/users
+
+###
+POST http://localhost:8080/api/users/
+content-type: application/json
+
+{
+    "name": "John Mayer",
+    "email": "email@email.com"
+   
+}
+
+###
+PUT http://localhost:8080/api/users/64ee629cdab7783de98723f8
+content-type: application/json
+
+{
+    "name": "John Mayer 2",
+    "email": "email12@email.com"
+   
+}
+
+###
+DELETE http://localhost:8080/api/users/64ee6fa20c96adeff4970de6
+
+
